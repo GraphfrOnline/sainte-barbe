@@ -36,10 +36,10 @@ p+p{margin-top:14px}
 
 /* nav */
 nav.top{position:sticky;top:0;z-index:50;background:var(--noir);color:#fff}
-nav.top .wrap{display:flex;align-items:center;gap:28px;height:58px;overflow-x:auto;scrollbar-width:none}
+nav.top .wrap{display:flex;align-items:center;gap:20px;height:58px;overflow-x:auto;scrollbar-width:none}
 nav.top .wrap::-webkit-scrollbar{display:none}
 nav.top .brand{font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;color:var(--jaune);white-space:nowrap;font-size:17px}
-nav.top a{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap;opacity:.78}
+nav.top a{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;white-space:nowrap;opacity:.78}
 nav.top a:hover{opacity:1;color:var(--jaune)}
 nav.top .dl{margin-left:auto;background:var(--jaune);color:var(--noir);opacity:1;padding:9px 14px}
 
@@ -47,8 +47,8 @@ nav.top .dl{margin-left:auto;background:var(--jaune);color:var(--noir);opacity:1
 .hero{position:relative;background:var(--noir);color:#fff;overflow:hidden;padding:0}
 .hero-bg{position:absolute;inset:0;background:url(img/mineurs.jpg) center/cover;filter:grayscale(1) contrast(1.1);opacity:.32}
 .hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--noir) 30%,rgba(14,13,12,.55) 70%,rgba(14,13,12,.2))}
-.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center;min-height:calc(100vh - 58px);padding-top:72px;padding-bottom:72px}
-.hero h1{font-size:clamp(52px,8.2vw,112px);margin:22px 0 18px}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.3fr .7fr;gap:56px;align-items:center;min-height:calc(100vh - 58px);padding-top:72px;padding-bottom:72px}
+.hero h1{font-size:clamp(38px,4.9vw,74px);margin:22px 0 18px}.nw{white-space:nowrap}
 .hero h1 .y{color:var(--jaune)}
 .hero .sign{font-family:Oswald,sans-serif;font-weight:500;font-size:clamp(22px,2.6vw,32px);text-transform:uppercase;color:var(--orange);margin-bottom:34px}
 .meta{display:grid;grid-template-columns:repeat(3,auto);gap:10px 34px;justify-content:start;font-size:14px}
@@ -249,7 +249,7 @@ nav.top a.on{opacity:1;color:var(--jaune)}
   <div class="wrap">
     <div>
       <span class="tag">Campagne · Bassin minier · Lens</span>
-      <h1 class="h">La Sainte-Barbe,<br><span class="y">ça se fête encore</span></h1>
+      <h1 class="h"><span class="nw">La Sainte-Barbe,</span><br><span class="y nw">ça se fête encore</span></h1>
       <div class="sign">Le 4 décembre, on remonte.</div>
       <div class="meta">
         <div><b>Commanditaire</b>Candice Neuville</div>
